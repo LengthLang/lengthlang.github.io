@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>length interpreter</title>
+        <script src="interpreter_web.js"></script>
+    </head>
+
+    <style>
+        p, input {
+            display: inline;
+        }
+
+        h6 {
+            display: inline;
+            opacity: 0;
+        }
+    </style>
+
+    <body>
+        <h1>length interpreter</h1>
+
+        <p>
+            <a href="https://esolangs.org/wiki/Length">length</a> interpreter in the browser<br>
+            original esolang by <a href="https://github.com/nailuj29gaming">nailuj29</a>, interpreter by <a href="https://github.com/NezbednikSK">nezbednik</a><br>
+            string generator <a href="https://nezbedniksk.github.io/random-stuff/length-string-generator/">here</a><br>
+            note: focus on stdout to send input, and press esc to halt the program<br><br>
+        </p>
+
+        <button id="run">run code</button>
+        <h6>hi</h6>
+        <input type="checkbox" id="debug">
+        <p id="debugtext">debug</p>
+        <br><br>
+        <textarea cols="80" rows="20" id="code" placeholder="your code here..."></textarea><br><br>
+        <p>stdout</p><br>
+        <textarea cols="80" rows="20" readonly id="stdout"></textarea>
+    </body>
+</html>
